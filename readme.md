@@ -2,7 +2,7 @@
 
 ## Software installieren
 Es ist notwending, dass für die erste Session gewisse Programme und Softwareumgebungen installiert 
-sind. Bitte folgende Programme auf eurem Arbeitsrechner für den Kurs (am besten in der Reihenfolge) installieren:
+sind. Bitte installiere folgende Programme auf deinem Arbeitsrechner für diesen Kurs (am besten in der Reihenfolge):
 
 **Java**
 - [Java SE Development Kit 8u101](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) (Achtet bei der Auswahl auf euer Betriebssystem!)
@@ -17,8 +17,8 @@ sind. Bitte folgende Programme auf eurem Arbeitsrechner für den Kurs (am besten
 - [NodeJs 4.4.7 LTS](https://nodejs.org/en/)
 - [git](https://git-scm.com/)
 
-Nachdem ihr die oben genannten Programme installiert habt. Öffnet ihr bitte ein Eingabeaufforderungs-Fenster (Windows) 
-/ Terminal-Fenster (OS X). Hier checked ihr als erstes ob NodeJs und git korrekt installiert sind.
+Nachdem du die oben genannten Programme installiert hast. Öffneat Du bitte ein Eingabeaufforderungs-Fenster (Windows) 
+/ Terminal-Fenster (OS X). Hier checkst du als erstes ob NodeJs und git korrekt installiert sind.
 
 ```shell
 git --version
@@ -50,16 +50,21 @@ npm install -g bower
 ```
 
 ## Repository clonen (also das Ding hier)
-Um die Arbeitsdateien aus diesem Ordner für euch lokal abzuspeichern, habt ihr die Möglichkeit es entweder runterzuladen oder 
-auf die elegantere Art, es mit git zu clonen. Im Endeffekt wird dadruch eine Kopie diese Repositories auf eurem Rechner gespeichert.
+Um die Arbeitsdateien aus diesem Ordner für dich lokal abzuspeichern, hast du die Möglichkeit diese entweder runterzuladen oder 
+auf die elegantere Art, sie mit git zu *clonen*. Im Endeffekt wird dadruch eine Kopie diese Repositories auf deinem Rechner gespeichert.
 Was man mit Git noch alles machen kann, folgt in einer späteren Session.
 
-Erstellt euch auf eurer Festplatte einen Ordner für die Übung (Name könnte z. B. *development-sessions* sein). Solltet ihr nur über ein Laufwerk 
-verfügen so nutzt euren persönlichen Ordner. Habt ihr ein weiteres Laufwerk (oder Partition) welches nicht nur zur Sicherung 
-eures Betriebssystems dient, also größer oder gleich groß wie euer Laufwerk C ist, dann nutzt diese. Egal welche Wahl für euch 
-die bessere war, geht in den Ordner den ihr erstellt habt. Öffnet hier ein Terminal Fenster (Eingabeaufforderung). Alternativ
-navigiert mit dem noch offenen Terminal dort hin (z. B. cd D:\development-sessions). Führt dort den folgenden Befehl aus:
+Erstelle dir auf deiner Festplatte einen Ordner für die Übungen (Name könnte z. B. *development-sessions* sein). Solltest du nur 
+über ein Laufwerk verfügen, so nutze deinen persönlichen Ordner um dort den neuen Ordner zu erstellen. Habt ihr ein weiteres 
+Laufwerk (oder Partition) welches nicht nur zur Sicherung eures Betriebssystems dient, also größer oder gleich groß wie euer 
+Laufwerk C ist, dann nutzt diese. Egal welche Wahl für dich die bessere war, geh in den Ordner den du erstellt habst. Öffne 
+hier ein Terminal Fenster (Eingabeaufforderung). Alternativ navigiere mit dem noch offenen Terminal dort hin 
+(z. B. cd D:\development-sessions). Führe dort den folgenden Befehl aus:
 
 ```shell
 git clone https://github.com/fk-mbc/fe-dev-session-01.git
 ```
+
+Sollte alles funktioniert haben, so wirst du in dem Ordner einen neuen Ordner names "fe-dev-session-01" finden.
+
+Wechsele in diese Ordner und führe die "start.bat" aus. Anschließend ruft du im Browser deiner Wahl http://localhost:8888/ auf.
