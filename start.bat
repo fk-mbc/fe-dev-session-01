@@ -1,0 +1,1 @@
+call node static-server.js

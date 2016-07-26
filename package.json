@@ -1,0 +1,21 @@
+{
+  "name": "fe-dev-session-01",
+  "version": "1.0.0",
+  "description": "basics for session 1",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fk-mbc/fe-dev-session-01.git"
+  },
+  "author": "f. kittel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fk-mbc/fe-dev-session-01/issues"
+  },
+  "homepage": "https://github.com/fk-mbc/fe-dev-session-01#readme"
+}
